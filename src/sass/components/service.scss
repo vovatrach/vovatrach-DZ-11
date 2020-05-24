@@ -16,29 +16,26 @@
     &__icon{
 
       &::after{
-      background-image: url('../../images/icon/alarn.svg');
+      background-image: url('../images/icon/alarn.svg');
       }
       &-web::after{
-        background-image: url('../../images/icon/line.svg');
+        background-image: url('../images/icon/line.svg');
       }
       &-tv::after{
-        background-image: url('../../images/icon/computer.svg');
+        background-image: url('../images/icon/computer.svg');
       }
       &-seo::after{
-        background-image: url('../../images/icon/book.svg');
+        background-image: url('../images/icon/book.svg');
       }
       &-cs::after{
-        background-image: url('../../images/icon/home.svg');
+        background-image: url('../images/icon/home.svg');
       }
       &-dig::after{
-        background-image: url('../../images/icon/imeg.svg');
+        background-image: url('../images/icon/imeg.svg');
       }
 
     }
 
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
     @include between-flex($type: 'all'); 
     margin: 0;
     padding: 10px; 
