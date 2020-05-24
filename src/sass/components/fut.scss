@@ -1,0 +1,12 @@
+.fut {
+  @include between-flex($type: 'all');
+    &__dok::after{
+      content: "\A9";
+      margin-right: 2px;
+    }
+
+    &__text-color{
+      color: $pink;
+        margin-left: 4px;
+    }
+  }

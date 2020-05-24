@@ -1,0 +1,20 @@
+  .card-footer {
+    @include center-flex($type: 'hor');
+
+    &__feat{
+      @extend %linkreset;
+    }
+
+    &__link {
+      font-weight: $bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $black;
+    }
+
+    &__pe {
+     font-family:"Roboto";
+     font-size: 15px;
+     text-align: center;
+    }
+  }

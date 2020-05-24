@@ -1,0 +1,23 @@
+.services__overlay{
+  @include center-flex($type: 'all');
+  @extend %absoluteCover;
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    background: linear-gradient(rgba(237,137,137,0.9), rgba(245,219,139,0.9)); 
+    visibility: hidden;
+
+    &-social-link{
+      @include center-flex($type: 'all');
+      margin-right: 1px;
+      width: 56px;
+      height: 56px;
+      background-color: $gold;
+
+      &:hover{
+        background-color: $pink;
+      }
+    }
+  }
+   
+  .services__overlay li + li{
+    padding-left: 5px;
+  }

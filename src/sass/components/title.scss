@@ -1,0 +1,28 @@
+.title{
+  &__subtitle {
+  font-family:'Kaushan Script';
+  font-size: 72px;
+  color: $white;
+  }
+
+  &__text {
+    font-size: 150px;
+    font-weight: $bold;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__btn {
+    font-weight: $bold;
+    color: $white;
+    height: 40px;
+    width: 160px;
+    text-transform: uppercase;
+    background-color:$gold;
+    border: 3px solid $white;
+  }
+}
+
+  
+
+  

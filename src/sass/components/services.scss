@@ -1,0 +1,28 @@
+  .services {
+    display: block;
+    text-align: center;
+
+    &__subtitle {
+      font-family:'Kaushan Script';
+      font-size: 24px;
+      margin: 0 auto;
+    }
+
+    &__text {
+      font-size: 30px;
+      font-weight: $bold;
+      text-transform: uppercase;
+
+      &::after{
+        content: "";
+        background-color: $pink;
+        display: block;
+        height: 4px;
+        width: 60px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }

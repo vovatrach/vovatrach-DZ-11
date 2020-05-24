@@ -1,0 +1,17 @@
+#footer {
+    height: 70px;
+    width: 100%;
+    padding-top: 60px;
+  
+    &::before{
+    content: "";
+    background-color: $gray-white;
+    display: block;
+    height: 2px;
+    width: 1220px;
+    margin-top: -2px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}

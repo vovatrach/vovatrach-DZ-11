@@ -1,0 +1,7 @@
+nav {
+  @include between-flex($type: 'hor');
+  padding-left: 120px;
+  align-items: center;
+  min-width: 1200px;
+  min-height: 90px;
+}

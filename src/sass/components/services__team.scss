@@ -1,0 +1,12 @@
+ .services__team-list {
+  @include between-flex($type: 'hor');
+   list-style: none;
+ }
+
+ .services__team-card{
+  position: relative;
+}
+
+.services__team-card:hover{
+  transform: translate(-10px, -10px);
+}
